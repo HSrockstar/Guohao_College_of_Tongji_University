@@ -8,3 +8,6 @@
 ## ⛪ 免责声明
 本仓库由花椰菜🥦创建，所有资料均为 **同济大学国豪书院** 课程资料，上传课程资料仅为本学院同学（应属小范围内）提供 **个人学习、研究或者欣赏** 方面的便利。仓库中的任何资料 **禁止商用** 。
 仓库中所有文件，若侵，联系确认后立删；著作权只属于文件作者；拒绝未经允许的使用、分发、传播；仅用于项目所有人的存储。
+
+## 💰 buy me a coffee
+<img src="https://github.com/HSrockstar/Guohao_College_of_Tongji_University/blob/main/buy%20me%20a%20coffee.jpg" width="300px">
