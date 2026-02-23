@@ -1,0 +1,5 @@
+2553360李映江
+1.小驼峰命名法：第一个单词以小写字母开始；第二个单词的首字母大写或每一个单词的首字母都采用大写字母，myFirstName, myLastName, myFirstProgram, myTest, firstTest
+2.大驼峰命名法：第一个单词也大写，DataBaseUser, MyFirstName, MyLastName, MyFirstProgram, MyTest
+3.匈牙利命名法：变量名=属性+类型+对象描述，在变量名前面加上相应的小写字母的符号标识作为前缀，标识出变量的作用域，类型等。这些符号可以多个同时使用，顺序是先m_（成员变量），再指针，再简单数据类型，再其他。iAge, fTemperature, cInitial, bIsStudent, szName[]
+4.下划线命名法：单词之间用下划线隔开。my_first_name, my_last_name, my_first_program, my_test, first_test

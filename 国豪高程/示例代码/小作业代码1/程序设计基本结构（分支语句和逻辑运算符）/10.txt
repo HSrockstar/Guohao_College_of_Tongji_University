@@ -1,0 +1,30 @@
+一、
+①score / 10
+②case 10:
+③break
+
+二、
+①统计遇到Q之前的换行次数
+②
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+	int line = 0;
+	char ch;
+	bool panduan = 1;
+	while (cin.get(ch) && panduan == 1)
+	{
+		if (ch != 'Q')
+		{
+			if (ch == '\n') line++;
+		}
+		else panduan = 0;
+	}
+}
+
+三、
+①return num < 0 ? -num : num;
+②return true;
+③(x >=0 && x <= 8) && (y >=0 && y <= 8) 

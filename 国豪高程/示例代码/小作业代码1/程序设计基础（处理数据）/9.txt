@@ -1,0 +1,24 @@
+一、
+①int student = 200;
+②int population = 8170360000;
+③char ch = 'A';
+④double score = 87.654;
+
+二、
+a为int
+b为char，单引号下表示的是字符
+c为double，小数默认为double
+d为unsigned long
+e为float，后面加了f
+f为wchar_t
+g为char32_t
+
+三、
+①7，float，int参与float的计算自动提升为float，VS输出为7，小数部分为0自动省略
+②122，int，char参与算术运算时自动提升为int，用其ASCII码进行运算，Z为90，a为97，A为65，计算结果为122
+③9.42，double，4/3为两个int的运算，小数部分直接删去，为1，再与3.14运算自动提升为double，最后结果为9.42
+
+四、
+①1,49，前者输入的是int类型原样输出，后者输入的是字符‘1’，输出其ASCII码
+②前者直接输出即可，后者需要用static_cast<int>()进行转换
+③输出数值：用 static_cast<int>()输出字符：char 用 cout，wchar_t 用 wcout

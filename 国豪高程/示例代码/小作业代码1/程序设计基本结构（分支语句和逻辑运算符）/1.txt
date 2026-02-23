@@ -1,0 +1,25 @@
+定义常量指针字符数组，西游记中的人名
+进入循环，至少循环一次
+c自增1，变为D
+进入switch，case C，运算后k=0，退出switch，k++后k=1
+输出s[1]，又数组从0开始编号，所以输出李四
+D<G，再次进入循环
+c自增1，变为E，
+进入switch，case D，运算后k=2，continue直接再次重新循环
+E<G，再次进入循环
+c自增1，变为F
+进入switch，case E，运算后k=9，退出switch，k++后k=10
+输出s[10]，红孩儿
+F<G，再次进入循环
+c自增1，变为G
+进入switch，case F，c-=6，所以c变为A，退出switch，k自增后变为11
+A<G，再次进入循环
+c自增1，变为B
+进入switch，case A，运算后k=3，退出switch，k自增后变为4
+输出s[4]，唐僧
+B<G，再次进入循环
+c自增1，变为C
+进入switch，case B，c变为G，k=36，又因为没有break，因此继续执行case C的语句，k运算后变为8，退出switch，k自增为9
+输出s[9]，银角大王
+G<G不成立，退出循环
+所以输出 李四红孩儿白骨精唐僧银角大王

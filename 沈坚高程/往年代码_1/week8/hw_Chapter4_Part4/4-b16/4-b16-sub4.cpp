@@ -1,0 +1,40 @@
+/*2253893 信06 苗君文*/
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include<cmath>
+using namespace std;
+int case4(double a, double b, double c)//有两个虚根
+{
+	double y, i1;
+	if (a != 0 && 4 * a * c - b * b >= 1e-6) {
+		y = -b / (2 * a);
+		if (fabs(y) < 1e-6)
+			y = 0;
+		i1 = fabs(sqrt(4 * a * c - b * b) / (2 * a));
+		if (fabs(i1) < 1e-6)
+			i1 = 0;
+		cout << "有两个虚根：" << endl;
+		if (fabs(i1 - 1) < 1e-6) {
+			if (y == 0) {
+				cout << "x1=" << "i" << endl;
+				cout << "x2=-" << "i" << endl;
+			}
+			else {
+				cout << "x1=" << y << "+" << "i" << endl;
+				cout << "x2=" << y << "-" << "i" << endl;
+			}
+		}
+		else {
+			if (y == 0) {
+				cout << "x1=" << i1 << "i" << endl;
+				cout << "x2=-" << i1 << "i" << endl;
+			}
+			else {
+				cout << "x1=" << y << "+" << i1 << "i" << endl;
+				cout << "x2=" << y << "-" << i1 << "i" << endl;
+			}
+		}
+	}
+	return 0;
+}
